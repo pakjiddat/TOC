@@ -1,0 +1,23 @@
+{
+  "name": "@pakjiddat/toc",
+  "version": "1.0.8",
+  "description": "Standalone Node.js module for generating table of contents from HTML text",
+  "main": "index.js",
+  "scripts": {
+    "test": "node tests/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nadirlc/toc.git"
+  },
+  "keywords": [
+    "table-of-contents-generator",
+    "node-module"
+  ],
+  "author": "Nadir Latif",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/nadirlc/toc/issues"
+  },
+  "homepage": "https://github.com/nadirlc/toc#readme"
+}
