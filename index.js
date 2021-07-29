@@ -102,7 +102,7 @@ class TOC {
       hText           = hText.replace(/(<([^>]+)>)/ig,"");
       /** The header id is generated */
       let hTextId     = hText.toLowerCase();
-      hTextId         = hTextId.replace(/[^a-z]/g, "-");
+      hTextId         = hTextId.replace(/[^a-z0-9]/g, "-");
       /** The header text is converted to link */
       hText           = "<a href='#" + hTextId + "'>" + hText + "</a>";
       /** The heading text is enclosed in <li> tags */
