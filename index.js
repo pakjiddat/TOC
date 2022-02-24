@@ -198,6 +198,7 @@ class TOC {
       /** If the text between the headings could not be parsed */
       if (btText == null) {
         console.log((pattern + "\n\n" + text));
+        continue;
       }
 
       /** The next text */
